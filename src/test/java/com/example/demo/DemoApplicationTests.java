@@ -13,7 +13,7 @@ class DemoApplicationTests {
 	public static final Logger LOGGER = LoggerFactory.getLogger(DemoApplicationTests.class);
 
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		LOGGER.info("Test case executing...");
 		LOGGER.info("Test case executing second log statement...");
 
